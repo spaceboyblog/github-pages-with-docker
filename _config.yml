@@ -27,6 +27,8 @@ github_username:  spaceboy
 # Fields minima uses, but are not defaulted with the jekyll new command.
 # Author is the default for posts, the Atom feed, and is used in the footer.
 author: S.Y.Chung
+linkedin_username: williamraymond
+youtube_username: ProjectNationBill
 
 # Add this to _config.xml
 # New fields not defaulted by jekyll-new with the minima theme
