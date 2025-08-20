@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/github-pages-with-docker" # the subpath of your site, e.g. /blog
 url: "https://spaceboyblog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spaceboy
-github_username:  spaceboy
+github_username:  Spaceboyblog
 
 # Fields minima uses, but are not defaulted with the jekyll new command.
 # Author is the default for posts, the Atom feed, and is used in the footer.
