@@ -39,7 +39,7 @@ copyright: "SunIl LLC"
 # instead of custom text. Ideally, image is 50px high and takes up 
 # minimal horizontal space. Tested with a new root "images" folder e.g.:
 # title-logo: /images/my-logo.png (or JPG, etc.)
-title-logo: 
+title-logo: /images/title-logo-3.png
 
 # Build settings
 markdown: kramdown
