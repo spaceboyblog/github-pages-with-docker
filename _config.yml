@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: About Jekyll
+title: Cambermast
 email: chungisutest@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A personal tech blog built with Jekyll and hosted on GitHub Pages. 
@@ -21,9 +21,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   programming, and static site generation.
 baseurl: "/github-pages-with-docker" # the subpath of your site, e.g. /blog
 url: "https://spaceboyblog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: spaceboy
+github_username:  spaceboy
 
+# Fields minima uses, but are not defaulted with the jekyll new command.
+# Author is the default for posts, the Atom feed, and is used in the footer.
+author: S.Y.Chung
 # Build settings
 markdown: kramdown
 # Remove minima theme as it is now a regular theme
