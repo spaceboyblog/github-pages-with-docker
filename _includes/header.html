@@ -10,11 +10,11 @@
     -->
     <!-- Custom: add title or title-logo -->
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      {% if site.title-logo %}
+      {%- if site.title-logo -%}
         <img src="{{ site.title-logo | relative_url }}" alt="{{ site.title | escape }}" />
-      {% else %}
+      {%- else -%}
         {{ site.title | escape }}
-      {% endif %}
+      {%- endif -%}
     </a>    
     <!-- end title or title-logo -->
 
