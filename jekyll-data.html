@@ -36,5 +36,10 @@
     {% for post in site.posts offset:1 limit:1 %}
       <p>{{ post.title }}</p>
     {% endfor %}      
+
+    <h2>North America blog post</h2>
+    {% for post in site.posts offset:1 limit:1 %}
+      <p>{{ post.title }}</p>
+    {% endfor %}      
   </body>
 </html>
