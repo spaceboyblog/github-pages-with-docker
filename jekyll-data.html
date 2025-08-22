@@ -49,11 +49,10 @@
       <a href="{{- post.url | relative_url -}}">{{ post.title }}</a>
     {%- endfor -%}  
     
-
-    {% for type in site.data.collection.all_types %}
-      {% unless type == blank %}
+    {% for type in site.data.collection.all_types -%}
+      {% unless type == blank -%}
         - {{ type }}
-      {% endunless %}
-    {% endfor %}
+      {%- endunless -%}
+    {%- endfor %}
   </body>
 </html>
