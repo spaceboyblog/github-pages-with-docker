@@ -47,6 +47,13 @@
     {%- for post in site.posts -%}
       <p></p>
       <a href="{{- post.url | relative_url -}}">{{ post.title }}</a>
-    {%- endfor -%}       
+    {%- endfor -%}  
+    
+
+    {% for type in site.data.collection.all_types %}
+      {% unless type == blank %}
+        - {{ type }}
+      {% endunless %}
+    {% endfor %}
   </body>
 </html>
