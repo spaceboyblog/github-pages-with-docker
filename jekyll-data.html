@@ -44,9 +44,9 @@
     {% endfor %}      
 
     <h2>Post with links</h2>
-    {% for post in site.posts %}
+    {%- for post in site.posts -%}
       <p></p>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% endfor %}       
+      <a href="{{- post.url | relative_url -}}">{{ post.title }}</a>
+    {%- endfor -%}       
   </body>
 </html>
