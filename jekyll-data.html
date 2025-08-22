@@ -42,5 +42,11 @@
     {% for post in naPosts %}
       <p>{{ post.title }}</p>
     {% endfor %}      
+
+    <h2>Post with links</h2>
+    {% for post in site.posts %}
+      <p></p>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}       
   </body>
 </html>
