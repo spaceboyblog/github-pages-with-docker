@@ -38,7 +38,8 @@
     {% endfor %}      
 
     <h2>North America blog post</h2>
-    {% for post in site.posts offset:1 limit:1 %}
+    {% assign naPosts = site.posts | where: "region", "North America" %}
+    {% for post in naPosts %}
       <p>{{ post.title }}</p>
     {% endfor %}      
   </body>
