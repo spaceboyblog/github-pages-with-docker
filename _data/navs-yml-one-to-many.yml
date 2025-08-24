@@ -1,0 +1,11 @@
+items:
+  - title: Home
+    url: /index.html
+    subitems: []
+  - title: About
+    url: /about.html
+    subitems:
+      - title: Contact us
+        url: /contact.html
+      - title: Map
+        url: /map.html
