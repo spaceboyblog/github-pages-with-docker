@@ -4,6 +4,7 @@
         {
             "title": "Home",
             "url": "/index.html",
+            "subitems": []
         },
         {
             "title": "About",
