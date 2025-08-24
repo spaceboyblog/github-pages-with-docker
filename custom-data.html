@@ -40,5 +40,17 @@
         {% endfor %}
       {% endif %}
     {% endfor %}
+
+    <h2>JSON File one to many</h2>
+    {% for nav in site.data.navs-json-one-to-many.items %}
+      <p><strong>Title: </strong>{{ nav.title }} - {{ nav.url }}</p>
+      {% if nav.subitems %}
+        {% for subitem in nav.subitems %}
+        <p><strong>&nbsp;&nbsp; Subitem title: </strong>
+            {{ subitem.title }} - {{ subitem.url }}
+        </p>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}    
   </body>
 </html>
